@@ -1,0 +1,18 @@
+
+
+SCENARIO: AddToCart
+META-DATA: {"description":"End to End scenario","groups":["P1","P2","SMOKE"],"key":"categories"}
+	
+	Given user opens AJio application
+	Then user gets AJio home page
+	When user selects Men from homepage
+	And user selects Menu from the homepage
+	And user selects '${subcategory}' and clicks '${catNo}' in Menu
+	And user selects sort by and selects lowest to highest filter
+	Then user gets the search result page
+	When user selects the '${No}' product
+	Then user should get the product details page
+	When user selects SaveToCloset
+	Then user should get SignIn popup
+	
+END

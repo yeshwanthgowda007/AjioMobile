@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<product>
+<categories>
+<categoryname>MEN</categoryname>
+<subcategory>T-SHIRTS</subcategory>
+<catNo>2</catNo>
+<No>1</No>
+</categories>
+
+<categories>
+<categoryname>WOMEN</categoryname>
+<subcategory>DRESSES</subcategory>
+<catNo>3</catNo>
+<No>1</No>
+</categories>
+
+<categories>
+<categoryname>KIDS</categoryname>
+<subcategory>NEW IN: BOYS</subcategory>
+<catNo>4</catNo>
+<No>1</No>
+</categories>
+
+<categories>
+<categoryname>INDIE</categoryname>
+<subcategory>MENSWEAR</subcategory>
+<catNo>5</catNo>
+<No>1</No>
+</categories>
+</product>
+

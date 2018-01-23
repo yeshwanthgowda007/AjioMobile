@@ -1,0 +1,6 @@
+btn.menu.homepage = {\"locator\":\"xpath=//android.widget.ImageButton[@content-desc=\\\"Open navigation drawer\\\"]\",\"desc\":\"Menu button in home page\"}
+lnk.submenu.homepage = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"subMenu under Menu\"}
+lnk.category.homepage = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"category under sub menu men\"}
+lnk.sample.homepage = {\"locator\":\"id=com.ril.ajio:id/row_search_component_tv_search\",\"desc\":\"dummy button in homepage\"}
+lnk.Men.homepage = {\"locator\":\"xpath=//android.widget.TextView[@text='Men']\",\"desc\":\"men link in ajio home page\"}
+lnk.catImage.homepage = {\"locator\":\"xpath=(//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[%s]\",\"desc\":\"men image in menu under home page\"}

@@ -1,0 +1,1045 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensAJioApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://localhost:4723/wd/hub}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1788
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userGetsAJioHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsMenFromHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 174 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 174
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 113 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 113
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 119 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 90 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 89 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 169 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 170
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 145 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 145
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 90 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 60 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 164 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 164
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 159 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 159
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 92 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 92
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 106 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 60 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 104 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 104
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 106 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 156 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 156
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 90 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 117 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 117
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 110 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 117 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 117
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 135 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 136
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 110 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 110
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 86 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 56 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 56
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 81 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 96 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 96
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 77 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 0906bc2d-5eab-419c-bc62-265d4d18251f\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 77
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsMenuFromTheHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageButton[@content-desc=\"Open navigation drawer\"], using=xpath}"
+          ],
+          "result": "id: 110",
+          "subLogs": [],
+          "duration": 84
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.ImageButton[@content-desc=\"Open navigation drawer\"]",
+            "{\"id\":\"110\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.ImageButton[@content-desc=\"Open navigation drawer\"], using=xpath}"
+          ],
+          "result": "[id: 111]",
+          "subLogs": [],
+          "duration": 91
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageButton[@content-desc=\"Open navigation drawer\"], using=xpath}"
+          ],
+          "result": "id: 112",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.ImageButton[@content-desc=\"Open navigation drawer\"]",
+            "{\"id\":\"112\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 351
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsAndClicksInMenu",
+      "args": [
+        "[${subcategory}, ${catNo}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=(//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[4], using=xpath}"
+          ],
+          "result": "[id: 113]",
+          "subLogs": [],
+          "duration": 1122
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[4], using=xpath}"
+          ],
+          "result": "id: 114",
+          "subLogs": [],
+          "duration": 201
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: (//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[4]",
+            "{\"id\":\"114\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[4], using=xpath}"
+          ],
+          "result": "id: 115",
+          "subLogs": [],
+          "duration": 462
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[4]",
+            "{\"id\":\"115\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 201
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='NEW IN: BOYS'], using=xpath}"
+          ],
+          "result": "id: 116",
+          "subLogs": [],
+          "duration": 1129
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='NEW IN: BOYS']",
+            "{\"id\":\"116\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 146
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='NEW IN: BOYS'], using=xpath}"
+          ],
+          "result": "[id: 117]",
+          "subLogs": [],
+          "duration": 172
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='NEW IN: BOYS'], using=xpath}"
+          ],
+          "result": "id: 118",
+          "subLogs": [],
+          "duration": 574
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='NEW IN: BOYS']",
+            "{\"id\":\"118\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 237
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsSortByAndSelectsLowestToHighestFilter",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort'], using=xpath}"
+          ],
+          "result": "[id: 119]",
+          "subLogs": [],
+          "duration": 1952
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort'], using=xpath}"
+          ],
+          "result": "id: 120",
+          "subLogs": [],
+          "duration": 178
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort']",
+            "{\"id\":\"120\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 58
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort'], using=xpath}"
+          ],
+          "result": "id: 121",
+          "subLogs": [],
+          "duration": 134
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort']",
+            "{\"id\":\"121\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 174
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price (lowest first)'], using=xpath}"
+          ],
+          "result": "[id: 122]",
+          "subLogs": [],
+          "duration": 1481
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price (lowest first)'], using=xpath}"
+          ],
+          "result": "id: 123",
+          "subLogs": [],
+          "duration": 1002
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Price (lowest first)']",
+            "{\"id\":\"123\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 78
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price (lowest first)'], using=xpath}"
+          ],
+          "result": "id: 124",
+          "subLogs": [],
+          "duration": 184
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Price (lowest first)']",
+            "{\"id\":\"124\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 163
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userGetsTheSearchResultPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 125, id: 126, id: 127, id: 128, id: 129]",
+          "subLogs": [],
+          "duration": 2528
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 130, id: 131, id: 132, id: 133]",
+          "subLogs": [],
+          "duration": 189
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']",
+            "{\"id\":\"131\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 12
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsTheProduct",
+      "args": [
+        "[${No}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 134, id: 135, id: 136, id: 137]",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']",
+            "{\"using\":\"xpath\",\"id\":\"134\",\"value\":\"//android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']\"}"
+          ],
+          "result": "findChildElement:id: 138",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']",
+            "{\"id\":\"138\"}"
+          ],
+          "result": "getElementText:Typographic Print Crew-Neck T-shirt",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 139, id: 140, id: 141, id: 142]",
+          "subLogs": [],
+          "duration": 98
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']",
+            "{\"using\":\"xpath\",\"id\":\"139\",\"value\":\"//android.widget.TextView[@resource-id='com.ril.ajio:id/item_price']\"}"
+          ],
+          "result": "findChildElement:id: 143",
+          "subLogs": [],
+          "duration": 70
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/item_price']",
+            "{\"id\":\"143\"}"
+          ],
+          "result": "getElementText:Rs. 249",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 144, id: 145, id: 146, id: 147]",
+          "subLogs": [],
+          "duration": 110
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']",
+            "{\"using\":\"xpath\",\"id\":\"144\",\"value\":\"//android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']\"}"
+          ],
+          "result": "findChildElement:id: 148",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']",
+            "{\"id\":\"148\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1207
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldGetTheProductDetailsPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.ril.ajio:id/row_pdp_title_price_tv_info, using=id}"
+          ],
+          "result": "[id: 149]",
+          "subLogs": [],
+          "duration": 333
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.ril.ajio:id/row_pdp_title_price_tv_info, using=id}"
+          ],
+          "result": "id: 150",
+          "subLogs": [],
+          "duration": 975
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.ril.ajio:id/row_pdp_title_price_tv_info",
+            "{\"id\":\"150\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 184
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.ril.ajio:id/row_pdp_title_price_tv_info, using=id}"
+          ],
+          "result": "id: 151",
+          "subLogs": [],
+          "duration": 187
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: com.ril.ajio:id/row_pdp_title_price_tv_info",
+            "{\"id\":\"151\"}"
+          ],
+          "result": "getElementText:Typographic Print Crew-Neck T-shirt",
+          "subLogs": [],
+          "duration": 414
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.ril.ajio:id/row_pdp_title_price_tv_price, using=id}"
+          ],
+          "result": "id: 152",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: com.ril.ajio:id/row_pdp_title_price_tv_price",
+            "{\"id\":\"152\"}"
+          ],
+          "result": "getElementText:Rs. 249",
+          "subLogs": [],
+          "duration": 55
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsSaveToCloset",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.LinearLayout[@resource-id='com.ril.ajio:id/save_for_later_layout'], using=xpath}"
+          ],
+          "result": "id: 153",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@resource-id='com.ril.ajio:id/save_for_later_layout']",
+            "{\"id\":\"153\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 352
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldGetSignInPopup",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.Button[@resource-id='com.ril.ajio:id/close_button'], using=xpath}"
+          ],
+          "result": "[id: 154]",
+          "subLogs": [],
+          "duration": 507
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.Button[@resource-id='com.ril.ajio:id/close_button'], using=xpath}"
+          ],
+          "result": "id: 155",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.Button[@resource-id='com.ril.ajio:id/close_button']",
+            "{\"id\":\"155\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 3183
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back'], using=xpath}"
+          ],
+          "result": "[id: 156]",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back'], using=xpath}"
+          ],
+          "result": "id: 157",
+          "subLogs": [],
+          "duration": 80
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back']",
+            "{\"id\":\"157\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back'], using=xpath}"
+          ],
+          "result": "id: 158",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back']",
+            "{\"id\":\"158\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 3143
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab'], using=xpath}"
+          ],
+          "result": "[id: 159]",
+          "subLogs": [],
+          "duration": 3271
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab'], using=xpath}"
+          ],
+          "result": "id: 160",
+          "subLogs": [],
+          "duration": 141
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab']",
+            "{\"id\":\"160\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab'], using=xpath}"
+          ],
+          "result": "id: 161",
+          "subLogs": [],
+          "duration": 231
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab']",
+            "{\"id\":\"161\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 421
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens AJio application",
+      "type": "TestStepPass",
+      "duration": 1791,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user gets AJio home page",
+      "type": "TestStepPass",
+      "duration": 3,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user selects Men from homepage",
+      "type": "TestStepPass",
+      "duration": 30115,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user selects Menu from the homepage",
+      "type": "TestStepPass",
+      "duration": 591,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects 'NEW IN: BOYS' and clicks '4' in Menu",
+      "type": "TestStepPass",
+      "duration": 4303,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects sort by and selects lowest to highest filter",
+      "type": "TestStepPass",
+      "duration": 5410,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user gets the search result page",
+      "type": "TestStepPass",
+      "duration": 7220,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;5&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/17_Jan_2018_05_15_PM/img/AddToCart_19njvaxzhg2g938411.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects the '1' product",
+      "type": "TestStepPass",
+      "duration": 1787,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should get the product details page",
+      "type": "TestStepPass",
+      "duration": 11872,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a string containing \"Typographic Print Crew-Neck T-shirt\"\n     Actual: was \"Typographic Print Crew-Neck T-shirt\"",
+          "type": "Pass",
+          "screenshot": "test-results/17_Jan_2018_05_15_PM/img/AddToCart_17zum7se25phj38412.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"Rs. 249\"\n     Actual: was \"Rs. 249\"",
+          "type": "Pass",
+          "screenshot": "test-results/17_Jan_2018_05_15_PM/img/AddToCart_muxv4up1kk8u38413.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects SaveToCloset",
+      "type": "TestStepPass",
+      "duration": 401,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should get SignIn popup",
+      "type": "TestStepPass",
+      "duration": 14715,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: &lt;true&gt;\n     Actual: was &lt;true&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/17_Jan_2018_05_15_PM/img/AddToCart_k6qm7d3j2c5n38414.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

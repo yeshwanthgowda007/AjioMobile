@@ -1,0 +1,14 @@
+#surefire
+#Wed Jan 10 11:30:17 IST 2018
+selenium.screenshots.dir=test-results/10_Jan_2018_06_00_AM/img
+json.report.dir=test-results/10_Jan_2018_06_00_AM/json
+outputDir=test-results/10_Jan_2018_06_00_AM
+log4j.configuration=file\:///C\:\\Users\\yeshwanth.kumar\\QASWorkspace\\AjioAppTest/resources/log4j.properties
+selenium.screenshots.relative.path=../img
+org.uncommons.reportng.xml-dialect=testng
+user.dir=C\:\\Users\\yeshwanth.kumar\\QASWorkspace\\AjioAppTest
+localRepository=C\:\\Users\\yeshwanth.kumar\\.m2\\repository
+basedir=C\:\\Users\\yeshwanth.kumar\\QASWorkspace\\AjioAppTest
+test.results.dir=test-results/10_Jan_2018_06_00_AM/html
+org.uncommons.reportng.escape-output=false
+json.report.root.dir=test-results

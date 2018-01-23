@@ -1,0 +1,13 @@
+{
+  "name": "AjioAppTest.scenarios.AjioTest.bdd",
+  "status": "pass",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 4,
+  "pass": 4,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1516271595282,
+  "endTime": 1516271937475
+}

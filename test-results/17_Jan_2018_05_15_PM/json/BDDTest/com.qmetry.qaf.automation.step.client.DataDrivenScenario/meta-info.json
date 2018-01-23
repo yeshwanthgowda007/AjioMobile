@@ -1,0 +1,127 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "MEN",
+          "subcategory": "T-SHIRTS",
+          "catNo": "2",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "End to End scenario",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3.0,
+        "name": "AddToCart",
+        "referece": "scenarios/AjioTest.bdd",
+        "sign": "scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516189569273,
+      "duration": 110699,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "WOMEN",
+          "subcategory": "DRESSES",
+          "catNo": "3",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "End to End scenario",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3.0,
+        "name": "AddToCart",
+        "referece": "scenarios/AjioTest.bdd",
+        "resultFileName": "AddToCartmasTZGfyeL",
+        "sign": "scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516189680027,
+      "duration": 78340,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "KIDS",
+          "subcategory": "NEW IN: BOYS",
+          "catNo": "4",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "End to End scenario",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3.0,
+        "name": "AddToCart",
+        "referece": "scenarios/AjioTest.bdd",
+        "resultFileName": "AddToCartEIHDiVFuYU",
+        "sign": "scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516189758397,
+      "duration": 78269,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "INDIE",
+          "subcategory": "MENSWEAR",
+          "catNo": "5",
+          "No": "1"
+        }
+      ],
+      "metaData": {
+        "description": "End to End scenario",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "categories",
+        "lineNo": 3,
+        "name": "AddToCart",
+        "referece": "scenarios/AjioTest.bdd",
+        "resultFileName": "AddToCartIgQVHeymmV",
+        "sign": "scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516189836698,
+      "duration": 77233,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

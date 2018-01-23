@@ -1,0 +1,6 @@
+lnk.productdivision.tshirtspage = {\"locator\":\"xpath=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']\",\"desc\":\"product division in t shirts page\"}
+lnk.productname.tshirtspage = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']\",\"desc\":\"product name in t shirts page\"}
+lnk.productprice.tshirtspage = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.ril.ajio:id/item_price']\",\"desc\":\"product price in t shirts page\"}
+lnk.sortby.tshirtpage = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort']\",\"desc\":\"sort by in tshirts page\"}
+lnk.lowesttohighest.tshirtpage = {\"locator\":\"xpath=//android.widget.TextView[@text='Price (lowest first)']\",\"desc\":\"lowesttohighest sort by link in tshirt page\"}
+lnk.home.tshirtresultpage = {\"locator\":\"xpath=//android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab']\",\"desc\":\"home button in tshirt page\"}

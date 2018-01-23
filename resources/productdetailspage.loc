@@ -1,0 +1,6 @@
+lnk.productname.productdetailspage = {\"locator\":\"id=com.ril.ajio:id/row_pdp_title_price_tv_info\",\"desc\":\"product name in product details page\"}
+lnk.productprice.productdetailspage = {\"locator\":\"id=com.ril.ajio:id/row_pdp_title_price_tv_price\",\"desc\":\"product price in product details page\"}
+lnk.savetocloset.productdetailspage = {\"locator\":\"xpath=//android.widget.LinearLayout[@resource-id='com.ril.ajio:id/save_for_later_layout']\",\"desc\":\"save to closet in product details page\"}
+lnk.addtobag.productdetailspage = {\"locator\":\"xpath=//android.widget.LinearLayout[@resource-id='com.ril.ajio:id/add_to_cart_layout']\",\"desc\":\"add to bag in product details page\"}
+lnk.closepopup.productdetailspage = {\"locator\":\"xpath=//android.widget.Button[@resource-id='com.ril.ajio:id/close_button']\",\"desc\":\"close button of popup in product details page\"}
+btn.back.productdetailspage = {\"locator\":\"xpath=//android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back']\",\"desc\":\"back button in product details page\"}

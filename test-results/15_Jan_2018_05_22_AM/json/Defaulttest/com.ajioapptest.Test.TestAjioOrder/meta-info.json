@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "verifyOrder",
+        "sign": "TestAjioOrder.verifyOrder()[pri:0, instance:com.ajioapptest.Test.TestAjioOrder@4fe767f3]"
+      },
+      "dependsOn": [],
+      "startTime": 1515999738574,
+      "duration": 66437,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

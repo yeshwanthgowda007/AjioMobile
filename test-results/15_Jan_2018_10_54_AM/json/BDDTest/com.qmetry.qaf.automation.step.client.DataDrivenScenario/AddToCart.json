@@ -1,0 +1,968 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensAJioApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://localhost:4723/wd/hub}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1758
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userGetsAJioHomePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsMenFromHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 227 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 256
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 212 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 212
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 120 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 120
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 145 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 145
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 94 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 120 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 121
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 102 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 68 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 68
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 82 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 105 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11500', ip: '10.11.31.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.ril.ajio, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, desired={appPackage=com.ril.ajio, appActivity=com.ril.ajio.activity.HomeActivity, browser_name=, appium-version=4.1.2, newCommandTimeout=120, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f96bf89d-34db-492a-afb6-6e0f091fc656\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Men']}",
+          "subLogs": [],
+          "duration": 107
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1383
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Men']",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 605
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "[id: 2]",
+          "subLogs": [],
+          "duration": 2018
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 1231
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Men']",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1824
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Men'], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 548
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Men']",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 238
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.ril.ajio:id/row_search_component_tv_search, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 558
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.ril.ajio:id/row_search_component_tv_search",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 1734
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsMenuFromTheHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageButton[@content-desc=\"Open navigation drawer\"], using=xpath}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 364
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.ImageButton[@content-desc=\"Open navigation drawer\"]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.ImageButton[@content-desc=\"Open navigation drawer\"], using=xpath}"
+          ],
+          "result": "[id: 7]",
+          "subLogs": [],
+          "duration": 143
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageButton[@content-desc=\"Open navigation drawer\"], using=xpath}"
+          ],
+          "result": "id: 8",
+          "subLogs": [],
+          "duration": 235
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.ImageButton[@content-desc=\"Open navigation drawer\"]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 186
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsAndClicksInMenu",
+      "args": [
+        "[${subcategory}, ${catNo}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=(//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[2], using=xpath}"
+          ],
+          "result": "[id: 9]",
+          "subLogs": [],
+          "duration": 1275
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[2], using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 339
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: (//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[2]",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[2], using=xpath}"
+          ],
+          "result": "id: 11",
+          "subLogs": [],
+          "duration": 224
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: (//android.widget.ImageView[@resource-id='com.ril.ajio:id/category_icon'])[2]",
+            "{\"id\":\"11\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 197
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='T-SHIRTS'], using=xpath}"
+          ],
+          "result": "id: 12",
+          "subLogs": [],
+          "duration": 1121
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='T-SHIRTS']",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='T-SHIRTS'], using=xpath}"
+          ],
+          "result": "[id: 13]",
+          "subLogs": [],
+          "duration": 331
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='T-SHIRTS'], using=xpath}"
+          ],
+          "result": "id: 14",
+          "subLogs": [],
+          "duration": 200
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='T-SHIRTS']",
+            "{\"id\":\"14\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 576
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsSortByAndSelectsLowestToHighestFilter",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort'], using=xpath}"
+          ],
+          "result": "[id: 15]",
+          "subLogs": [],
+          "duration": 1976
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort'], using=xpath}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 267
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort']",
+            "{\"id\":\"16\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort'], using=xpath}"
+          ],
+          "result": "id: 17",
+          "subLogs": [],
+          "duration": 290
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/plp_tv_sort']",
+            "{\"id\":\"17\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 601
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price (lowest first)'], using=xpath}"
+          ],
+          "result": "[id: 18]",
+          "subLogs": [],
+          "duration": 1563
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price (lowest first)'], using=xpath}"
+          ],
+          "result": "id: 19",
+          "subLogs": [],
+          "duration": 212
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Price (lowest first)']",
+            "{\"id\":\"19\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 281
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price (lowest first)'], using=xpath}"
+          ],
+          "result": "id: 20",
+          "subLogs": [],
+          "duration": 251
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Price (lowest first)']",
+            "{\"id\":\"20\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 163
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userGetsTheSearchResultPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 21, id: 22, id: 23, id: 24, id: 25]",
+          "subLogs": [],
+          "duration": 2520
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 26, id: 27, id: 28, id: 29]",
+          "subLogs": [],
+          "duration": 250
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']",
+            "{\"id\":\"27\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 140
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsTheProduct",
+      "args": [
+        "[${No}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 30, id: 31, id: 32, id: 33]",
+          "subLogs": [],
+          "duration": 271
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']",
+            "{\"using\":\"xpath\",\"id\":\"30\",\"value\":\"//android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']\"}"
+          ],
+          "result": "findChildElement:id: 34",
+          "subLogs": [],
+          "duration": 188
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']",
+            "{\"id\":\"34\"}"
+          ],
+          "result": "getElementText:Racerback Slim Tank T-shirt",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 35, id: 36, id: 37, id: 38]",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']",
+            "{\"using\":\"xpath\",\"id\":\"35\",\"value\":\"//android.widget.TextView[@resource-id='com.ril.ajio:id/item_price']\"}"
+          ],
+          "result": "findChildElement:id: 39",
+          "subLogs": [],
+          "duration": 149
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/item_price']",
+            "{\"id\":\"39\"}"
+          ],
+          "result": "getElementText:Rs. 160",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout'], using=xpath}"
+          ],
+          "result": "[id: 40, id: 41, id: 42, id: 43]",
+          "subLogs": [],
+          "duration": 164
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.RelativeLayout[@resource-id='com.ril.ajio:id/parent_layout']",
+            "{\"using\":\"xpath\",\"id\":\"40\",\"value\":\"//android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']\"}"
+          ],
+          "result": "findChildElement:id: 44",
+          "subLogs": [],
+          "duration": 166
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@resource-id='com.ril.ajio:id/item_name']",
+            "{\"id\":\"44\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 2879
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldGetTheProductDetailsPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.ril.ajio:id/row_pdp_title_price_tv_info, using=id}"
+          ],
+          "result": "[id: 45]",
+          "subLogs": [],
+          "duration": 1391
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.ril.ajio:id/row_pdp_title_price_tv_info, using=id}"
+          ],
+          "result": "id: 46",
+          "subLogs": [],
+          "duration": 112
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.ril.ajio:id/row_pdp_title_price_tv_info",
+            "{\"id\":\"46\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 96
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.ril.ajio:id/row_pdp_title_price_tv_info, using=id}"
+          ],
+          "result": "id: 47",
+          "subLogs": [],
+          "duration": 353
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: com.ril.ajio:id/row_pdp_title_price_tv_info",
+            "{\"id\":\"47\"}"
+          ],
+          "result": "getElementText:Racerback Slim Tank T-shirt",
+          "subLogs": [],
+          "duration": 149
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.ril.ajio:id/row_pdp_title_price_tv_price, using=id}"
+          ],
+          "result": "id: 48",
+          "subLogs": [],
+          "duration": 54
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: com.ril.ajio:id/row_pdp_title_price_tv_price",
+            "{\"id\":\"48\"}"
+          ],
+          "result": "getElementText:Rs. 160  Rs. 399  (60% off)",
+          "subLogs": [],
+          "duration": 53
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsSaveToCloset",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.LinearLayout[@resource-id='com.ril.ajio:id/save_for_later_layout'], using=xpath}"
+          ],
+          "result": "id: 49",
+          "subLogs": [],
+          "duration": 68
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@resource-id='com.ril.ajio:id/save_for_later_layout']",
+            "{\"id\":\"49\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 770
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldGetSignInPopup",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.Button[@resource-id='com.ril.ajio:id/close_button'], using=xpath}"
+          ],
+          "result": "[id: 50]",
+          "subLogs": [],
+          "duration": 470
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.Button[@resource-id='com.ril.ajio:id/close_button'], using=xpath}"
+          ],
+          "result": "id: 51",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.Button[@resource-id='com.ril.ajio:id/close_button']",
+            "{\"id\":\"51\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 3117
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back'], using=xpath}"
+          ],
+          "result": "[id: 52]",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back'], using=xpath}"
+          ],
+          "result": "id: 53",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back']",
+            "{\"id\":\"53\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back'], using=xpath}"
+          ],
+          "result": "id: 54",
+          "subLogs": [],
+          "duration": 78
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.ImageView[@resource-id='com.ril.ajio:id/pdp_toolbar_imv_back']",
+            "{\"id\":\"54\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 3144
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab'], using=xpath}"
+          ],
+          "result": "[id: 55]",
+          "subLogs": [],
+          "duration": 2032
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab'], using=xpath}"
+          ],
+          "result": "id: 56",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab']",
+            "{\"id\":\"56\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab'], using=xpath}"
+          ],
+          "result": "id: 57",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.ImageView[@resource-id='com.ril.ajio:id/icon_ajio_tab']",
+            "{\"id\":\"57\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 434
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens AJio application",
+      "type": "TestStepPass",
+      "duration": 23060,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user gets AJio home page",
+      "type": "TestStepPass",
+      "duration": 4,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user selects Men from homepage",
+      "type": "TestStepPass",
+      "duration": 21677,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user selects Menu from the homepage",
+      "type": "TestStepPass",
+      "duration": 975,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects 'T-SHIRTS' and clicks '2' in Menu",
+      "type": "TestStepPass",
+      "duration": 4832,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects sort by and selects lowest to highest filter",
+      "type": "TestStepPass",
+      "duration": 5742,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user gets the search result page",
+      "type": "TestStepPass",
+      "duration": 8769,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;5&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/15_Jan_2018_10_54_AM/img/AddToCart_ao57qin0tzii63986.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects the '1' product",
+      "type": "TestStepPass",
+      "duration": 4075,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should get the product details page",
+      "type": "TestStepPass",
+      "duration": 12742,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a string containing \"Racerback Slim Tank T-shirt\"\n     Actual: was \"Racerback Slim Tank T-shirt\"",
+          "type": "Pass",
+          "screenshot": "test-results/15_Jan_2018_10_54_AM/img/AddToCart_1xmrs9x9cq9h463987.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"Rs. 160\"\n     Actual: was \"Rs. 160  Rs. 399  (60% off)\"",
+          "type": "Pass",
+          "screenshot": "test-results/15_Jan_2018_10_54_AM/img/AddToCart_1p13nzcdizw863988.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects SaveToCloset",
+      "type": "TestStepPass",
+      "duration": 843,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should get SignIn popup",
+      "type": "TestStepPass",
+      "duration": 13401,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: &lt;true&gt;\n     Actual: was &lt;true&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/15_Jan_2018_10_54_AM/img/AddToCart_1to55yvj2grfz63989.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

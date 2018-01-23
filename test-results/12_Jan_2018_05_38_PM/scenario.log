@@ -1,0 +1,114 @@
+17:38:42 scenario.file.loc[Ljava.lang.String;@4c1d9d4b
+17:38:42 loading BDD file: scenarios/AjioTest.bdd
+17:38:42 total test found: 1
+17:38:42 
+
+Executing scenario: AddToCart - End to End scenario
+17:38:42 Test Data{categoryname=MEN, subcategory=T-SHIRTS, catNo=2, No=1}
+17:38:42 pkg: com.qmetry.qaf.automation.step
+17:38:42 pkg: com.ajioapptest
+17:38:42 Found duplicate step to load [] with [lower] prority then []
+17:38:43 Invoking Teststep: Given user opens AJio application
+17:39:10 Completed Teststep: Given user opens AJio application
+17:39:10 Invoking Teststep: Then user gets AJio home page
+17:39:10 Completed Teststep: Then user gets AJio home page
+17:39:10 Invoking Teststep: When user selects Men from homepage
+17:39:24 Completed Teststep: When user selects Men from homepage
+17:39:24 Invoking Teststep: When user selects Menu from the homepage
+17:39:25 Completed Teststep: When user selects Menu from the homepage
+17:39:25 Invoking Teststep: And user selects '${subcategory}' and clicks '${catNo}' in Menu with arguments: [${subcategory}, ${catNo}]
+17:39:30 Completed Teststep: And user selects 'T-SHIRTS' and clicks '2' in Menu with arguments: [${subcategory}, ${catNo}]
+17:39:30 Invoking Teststep: And user selects sort by and selects lowest to highest filter
+17:39:35 Completed Teststep: And user selects sort by and selects lowest to highest filter
+17:39:35 Invoking Teststep: Then user gets the search result page
+17:39:44 Completed Teststep: Then user gets the search result page
+17:39:44 Invoking Teststep: When user selects the '${No}' product with arguments: [${No}]
+17:39:49 Completed Teststep: When user selects the '1' product with arguments: [${No}]
+17:39:49 Invoking Teststep: Then user should get the product details page
+17:40:04 Completed Teststep: Then user should get the product details page
+17:40:04 Invoking Teststep: When user selects SaveToCloset
+17:40:05 Completed Teststep: When user selects SaveToCloset
+17:40:05 Invoking Teststep: Then user should get SignIn popup
+17:40:16 Completed Teststep: Then user should get SignIn popup
+17:40:16 Competed scenario: AddToCart with status SUCESS
+17:40:16 
+
+Executing scenario: AddToCart - End to End scenario
+17:40:16 Test Data{categoryname=WOMEN, subcategory=DRESSES, catNo=3, No=1}
+17:40:16 Invoking Teststep: Given user opens AJio application
+17:40:17 Completed Teststep: Given user opens AJio application
+17:40:17 Invoking Teststep: Then user gets AJio home page
+17:40:17 Completed Teststep: Then user gets AJio home page
+17:40:17 Invoking Teststep: When user selects Men from homepage
+17:40:48 Completed Teststep: When user selects Men from homepage
+17:40:48 Invoking Teststep: When user selects Menu from the homepage
+17:40:48 Completed Teststep: When user selects Menu from the homepage
+17:40:48 Invoking Teststep: And user selects '${subcategory}' and clicks '${catNo}' in Menu with arguments: [${subcategory}, ${catNo}]
+17:40:52 Completed Teststep: And user selects 'DRESSES' and clicks '3' in Menu with arguments: [${subcategory}, ${catNo}]
+17:40:52 Invoking Teststep: And user selects sort by and selects lowest to highest filter
+17:40:57 Completed Teststep: And user selects sort by and selects lowest to highest filter
+17:40:57 Invoking Teststep: Then user gets the search result page
+17:41:05 Completed Teststep: Then user gets the search result page
+17:41:05 Invoking Teststep: When user selects the '${No}' product with arguments: [${No}]
+17:41:09 Completed Teststep: When user selects the '1' product with arguments: [${No}]
+17:41:09 Invoking Teststep: Then user should get the product details page
+17:41:20 Completed Teststep: Then user should get the product details page
+17:41:20 Invoking Teststep: When user selects SaveToCloset
+17:41:20 Completed Teststep: When user selects SaveToCloset
+17:41:20 Invoking Teststep: Then user should get SignIn popup
+17:41:34 Completed Teststep: Then user should get SignIn popup
+17:41:34 Competed scenario: AddToCart with status SUCESS
+17:41:34 
+
+Executing scenario: AddToCart - End to End scenario
+17:41:34 Test Data{categoryname=KIDS, subcategory=NEW IN: BOYS, catNo=4, No=1}
+17:41:34 Invoking Teststep: Given user opens AJio application
+17:41:35 Completed Teststep: Given user opens AJio application
+17:41:35 Invoking Teststep: Then user gets AJio home page
+17:41:35 Completed Teststep: Then user gets AJio home page
+17:41:35 Invoking Teststep: When user selects Men from homepage
+17:42:07 Completed Teststep: When user selects Men from homepage
+17:42:07 Invoking Teststep: When user selects Menu from the homepage
+17:42:07 Completed Teststep: When user selects Menu from the homepage
+17:42:07 Invoking Teststep: And user selects '${subcategory}' and clicks '${catNo}' in Menu with arguments: [${subcategory}, ${catNo}]
+17:42:11 Completed Teststep: And user selects 'NEW IN: BOYS' and clicks '4' in Menu with arguments: [${subcategory}, ${catNo}]
+17:42:11 Invoking Teststep: And user selects sort by and selects lowest to highest filter
+17:42:17 Completed Teststep: And user selects sort by and selects lowest to highest filter
+17:42:17 Invoking Teststep: Then user gets the search result page
+17:42:24 Completed Teststep: Then user gets the search result page
+17:42:24 Invoking Teststep: When user selects the '${No}' product with arguments: [${No}]
+17:42:28 Completed Teststep: When user selects the '1' product with arguments: [${No}]
+17:42:28 Invoking Teststep: Then user should get the product details page
+17:42:40 Completed Teststep: Then user should get the product details page
+17:42:40 Invoking Teststep: When user selects SaveToCloset
+17:42:41 Completed Teststep: When user selects SaveToCloset
+17:42:41 Invoking Teststep: Then user should get SignIn popup
+17:42:55 Completed Teststep: Then user should get SignIn popup
+17:42:55 Competed scenario: AddToCart with status SUCESS
+17:42:55 
+
+Executing scenario: AddToCart - End to End scenario
+17:42:55 Test Data{categoryname=INDIE, subcategory=MENSWEAR, catNo=5, No=1}
+17:42:55 Invoking Teststep: Given user opens AJio application
+17:42:57 Completed Teststep: Given user opens AJio application
+17:42:57 Invoking Teststep: Then user gets AJio home page
+17:42:57 Completed Teststep: Then user gets AJio home page
+17:42:57 Invoking Teststep: When user selects Men from homepage
+17:43:28 Completed Teststep: When user selects Men from homepage
+17:43:28 Invoking Teststep: When user selects Menu from the homepage
+17:43:29 Completed Teststep: When user selects Menu from the homepage
+17:43:29 Invoking Teststep: And user selects '${subcategory}' and clicks '${catNo}' in Menu with arguments: [${subcategory}, ${catNo}]
+17:43:33 Completed Teststep: And user selects 'MENSWEAR' and clicks '5' in Menu with arguments: [${subcategory}, ${catNo}]
+17:43:33 Invoking Teststep: And user selects sort by and selects lowest to highest filter
+17:43:37 Completed Teststep: And user selects sort by and selects lowest to highest filter
+17:43:37 Invoking Teststep: Then user gets the search result page
+17:43:46 Completed Teststep: Then user gets the search result page
+17:43:46 Invoking Teststep: When user selects the '${No}' product with arguments: [${No}]
+17:43:47 Completed Teststep: When user selects the '1' product with arguments: [${No}]
+17:43:47 Invoking Teststep: Then user should get the product details page
+17:43:59 Completed Teststep: Then user should get the product details page
+17:43:59 Invoking Teststep: When user selects SaveToCloset
+17:44:00 Completed Teststep: When user selects SaveToCloset
+17:44:00 Invoking Teststep: Then user should get SignIn popup
+17:44:13 Completed Teststep: Then user should get SignIn popup
+17:44:13 Competed scenario: AddToCart with status SUCESS

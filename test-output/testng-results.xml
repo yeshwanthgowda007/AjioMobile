@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'T-SHIRTS' and clicks '2' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_spfyxffjxg9e35776.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Crew-Neck Slub T-shirt"
+     Actual: was "Crew-Neck Slub T-shirt" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_lzsbkezk5vaw35777.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 150"
+     Actual: was "Rs. 150  Rs. 299  (50% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1mkd4zpuu6yjo35778.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_svx8x3mzsclg35779.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'DRESSES' and clicks '3' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1j7krvzcwiowo35780.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Sleeveless A-line Dress"
+     Actual: was "Sleeveless A-line Dress" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_m89igun1mrzi35781.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 350"
+     Actual: was "Rs. 350  Rs. 699  (50% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_8iyf6dwa2eea35782.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1f85xa1nba0li35783.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'NEW IN: BOYS' and clicks '4' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1jot2nbu2aqfb35784.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Typographic Print Crew-Neck T-shirt"
+     Actual: was "Typographic Print Crew-Neck T-shirt" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_d66vphczcf5e35785.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 249"
+     Actual: was "Rs. 249" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_omb7aofc47n835786.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1jrz0dgrls6x635787.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'MENSWEAR' and clicks '5' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_tlf93xnu5tbq35788.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Bagru Dabu Handblock Print Cotton Kurta Fabric"
+     Actual: was "Bagru Dabu Handblock Print Cotton Kurta Fabric" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_geqyxbq1gh7y35789.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 360"
+     Actual: was "Rs. 360  Rs. 799  (55% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_hut5g2eymi5635790.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_w1mx7muwv7p635791.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="AjioAppTest.scenarios.AjioTest.bdd" duration-ms="337528" started-at="2018-01-19T09:48:42Z" finished-at="2018-01-19T09:54:20Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="AddToCart" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="AddToCart" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P2 -->
+      <group name="SMOKE">
+        <method signature="scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="AddToCart" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="337528" started-at="2018-01-19T09:48:42Z" finished-at="2018-01-19T09:54:20Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="setupSuit" is-config="true" duration-ms="24" started-at="2018-01-19T15:18:42Z" finished-at="2018-01-19T15:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="setupTest" is-config="true" duration-ms="2" started-at="2018-01-19T15:18:42Z" finished-at="2018-01-19T15:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="setup" is-config="true" duration-ms="11" started-at="2018-01-19T15:18:42Z" finished-at="2018-01-19T15:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-01-19T15:18:42Z" finished-at="2018-01-19T15:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="AddToCart" test-instance-name="AddToCart" signature="AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="95452" finished-at="2018-01-19T15:20:18Z" started-at="2018-01-19T15:18:42Z" data-provider="scenariodp" description="End to End scenario">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categoryname=MEN, subcategory=T-SHIRTS, catNo=2, No=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'T-SHIRTS' and clicks '2' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_spfyxffjxg9e35776.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Crew-Neck Slub T-shirt"
+     Actual: was "Crew-Neck Slub T-shirt" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_lzsbkezk5vaw35777.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 150"
+     Actual: was "Rs. 150  Rs. 299  (50% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1mkd4zpuu6yjo35778.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_svx8x3mzsclg35779.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-19T15:20:18Z" finished-at="2018-01-19T15:20:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'T-SHIRTS' and clicks '2' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_spfyxffjxg9e35776.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Crew-Neck Slub T-shirt"
+     Actual: was "Crew-Neck Slub T-shirt" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_lzsbkezk5vaw35777.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 150"
+     Actual: was "Rs. 150  Rs. 299  (50% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1mkd4zpuu6yjo35778.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_svx8x3mzsclg35779.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method name="AddToCart" test-instance-name="AddToCart" signature="AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="78846" finished-at="2018-01-19T15:21:36Z" started-at="2018-01-19T15:20:18Z" data-provider="scenariodp" description="End to End scenario">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categoryname=WOMEN, subcategory=DRESSES, catNo=3, No=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'DRESSES' and clicks '3' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1j7krvzcwiowo35780.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Sleeveless A-line Dress"
+     Actual: was "Sleeveless A-line Dress" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_m89igun1mrzi35781.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 350"
+     Actual: was "Rs. 350  Rs. 699  (50% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_8iyf6dwa2eea35782.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1f85xa1nba0li35783.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-01-19T15:20:18Z" finished-at="2018-01-19T15:20:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-19T15:21:36Z" finished-at="2018-01-19T15:21:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'DRESSES' and clicks '3' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1j7krvzcwiowo35780.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Sleeveless A-line Dress"
+     Actual: was "Sleeveless A-line Dress" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_m89igun1mrzi35781.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 350"
+     Actual: was "Rs. 350  Rs. 699  (50% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_8iyf6dwa2eea35782.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1f85xa1nba0li35783.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method name="AddToCart" test-instance-name="AddToCart" signature="AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="75889" finished-at="2018-01-19T15:22:52Z" started-at="2018-01-19T15:21:36Z" data-provider="scenariodp" description="End to End scenario">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categoryname=KIDS, subcategory=NEW IN: BOYS, catNo=4, No=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'NEW IN: BOYS' and clicks '4' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1jot2nbu2aqfb35784.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Typographic Print Crew-Neck T-shirt"
+     Actual: was "Typographic Print Crew-Neck T-shirt" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_d66vphczcf5e35785.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 249"
+     Actual: was "Rs. 249" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_omb7aofc47n835786.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1jrz0dgrls6x635787.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-01-19T15:21:36Z" finished-at="2018-01-19T15:21:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-01-19T15:22:52Z" finished-at="2018-01-19T15:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-19T15:22:52Z" finished-at="2018-01-19T15:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'NEW IN: BOYS' and clicks '4' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1jot2nbu2aqfb35784.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Typographic Print Crew-Neck T-shirt"
+     Actual: was "Typographic Print Crew-Neck T-shirt" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_d66vphczcf5e35785.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 249"
+     Actual: was "Rs. 249" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_omb7aofc47n835786.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_1jrz0dgrls6x635787.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method name="AddToCart" test-instance-name="AddToCart" signature="AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="81416" finished-at="2018-01-19T15:24:14Z" started-at="2018-01-19T15:22:52Z" data-provider="scenariodp" description="End to End scenario">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categoryname=INDIE, subcategory=MENSWEAR, catNo=5, No=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'MENSWEAR' and clicks '5' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_tlf93xnu5tbq35788.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Bagru Dabu Handblock Print Cotton Kurta Fabric"
+     Actual: was "Bagru Dabu Handblock Print Cotton Kurta Fabric" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_geqyxbq1gh7y35789.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 360"
+     Actual: was "Rs. 360  Rs. 799  (55% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_hut5g2eymi5635790.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_w1mx7muwv7p635791.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-19T15:24:14Z" finished-at="2018-01-19T15:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=scenarios.AjioTest.bdd.AddToCart( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens AJio application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets AJio home page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects Men from homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects Menu from the homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'MENSWEAR' and clicks '5' in Menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects sort by and selects lowest to highest filter</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user gets the search result page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;5&gt; was greater than &lt;0&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_tlf93xnu5tbq35788.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the '1' product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get the product details page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Bagru Dabu Handblock Print Cotton Kurta Fabric"
+     Actual: was "Bagru Dabu Handblock Print Cotton Kurta Fabric" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_geqyxbq1gh7y35789.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 360"
+     Actual: was "Rs. 360  Rs. 799  (55% off)" <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_hut5g2eymi5635790.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects SaveToCloset</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should get SignIn popup</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/19_Jan_2018_03_18_PM/img/AddToCart_w1mx7muwv7p635791.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-19T15:24:14Z" finished-at="2018-01-19T15:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="afterTest" is-config="true" duration-ms="5693" started-at="2018-01-19T15:24:14Z" finished-at="2018-01-19T15:24:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddToCart" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-01-19T15:24:20Z" finished-at="2018-01-19T15:24:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- AjioAppTest.scenarios.AjioTest.bdd -->
+</testng-results>
